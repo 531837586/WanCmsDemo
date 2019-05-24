@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WANCMS_GAMEID</key>
+	<string>2</string>
+	<key>WANCMS_APPID</key>
+	<string>2</string>
+	<key>WANCMS_AGENT</key>
+	<string>cps001</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module WanCmsSDK {
+  umbrella header "WanCmsSDK.h"
+
+  export *
+  module * { export * }
+}

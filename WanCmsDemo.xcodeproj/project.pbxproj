@@ -29,7 +29,7 @@
 		A1691F3F2296CBB100B88365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1638E222296BC3C002FD340 /* AppDelegate.m */; };
 		A16923962296EFF600B88365 /* WC.plist in Resources */ = {isa = PBXBuildFile; fileRef = A16923952296EFF600B88365 /* WC.plist */; };
 		A16924EB22979BDB00B88365 /* WanCmsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16924EA22979BDB00B88365 /* WanCmsSDK.framework */; };
-		A169254A22979E2E00B88365 /* WanCmsSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A169254922979E2E00B88365 /* WanCmsSDK.bundle */; };
+		A16925522297CD9C00B88365 /* WanCmsSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A16925512297CD9C00B88365 /* WanCmsSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +81,7 @@
 		A1691F402296D09A00B88365 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A16923952296EFF600B88365 /* WC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WC.plist; sourceTree = "<group>"; };
 		A16924EA22979BDB00B88365 /* WanCmsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WanCmsSDK.framework; sourceTree = "<group>"; };
-		A169254922979E2E00B88365 /* WanCmsSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WanCmsSDK.bundle; sourceTree = "<group>"; };
+		A16925512297CD9C00B88365 /* WanCmsSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WanCmsSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +159,7 @@
 				A1691F402296D09A00B88365 /* PrefixHeader.pch */,
 				A1638E242296BC3C002FD340 /* ViewController.h */,
 				A1638E252296BC3C002FD340 /* ViewController.m */,
-				A169254922979E2E00B88365 /* WanCmsSDK.bundle */,
+				A16925512297CD9C00B88365 /* WanCmsSDK.bundle */,
 				A16924EA22979BDB00B88365 /* WanCmsSDK.framework */,
 				A16923952296EFF600B88365 /* WC.plist */,
 			);
@@ -305,7 +305,7 @@
 				A1638E2E2296BC3D002FD340 /* LaunchScreen.storyboard in Resources */,
 				A1638E2B2296BC3D002FD340 /* Assets.xcassets in Resources */,
 				A1691F262296C03000B88365 /* AlipaySDK.bundle in Resources */,
-				A169254A22979E2E00B88365 /* WanCmsSDK.bundle in Resources */,
+				A16925522297CD9C00B88365 /* WanCmsSDK.bundle in Resources */,
 				A16923962296EFF600B88365 /* WC.plist in Resources */,
 				A1638E292296BC3C002FD340 /* Main.storyboard in Resources */,
 			);

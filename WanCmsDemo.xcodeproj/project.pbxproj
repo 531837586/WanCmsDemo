@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1638E232296BC3C002FD340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1638E222296BC3C002FD340 /* AppDelegate.m */; };
 		A1638E262296BC3C002FD340 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1638E252296BC3C002FD340 /* ViewController.m */; };
 		A1638E292296BC3C002FD340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1638E272296BC3C002FD340 /* Main.storyboard */; };
 		A1638E2B2296BC3D002FD340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1638E2A2296BC3D002FD340 /* Assets.xcassets */; };
@@ -15,6 +14,22 @@
 		A1638E312296BC3D002FD340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1638E302296BC3D002FD340 /* main.m */; };
 		A1638E3B2296BC3D002FD340 /* WanCmsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1638E3A2296BC3D002FD340 /* WanCmsDemoTests.m */; };
 		A1638E462296BC3D002FD340 /* WanCmsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1638E452296BC3D002FD340 /* WanCmsDemoUITests.m */; };
+		A1691F262296C03000B88365 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1691F222296C02E00B88365 /* AlipaySDK.bundle */; };
+		A1691F272296C03000B88365 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F232296C02E00B88365 /* AlipaySDK.framework */; };
+		A1691F282296C03000B88365 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F242296C02F00B88365 /* libcrypto.a */; };
+		A1691F292296C03000B88365 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F252296C02F00B88365 /* libssl.a */; };
+		A1691F2C2296C04F00B88365 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F2B2296C04F00B88365 /* libz.tbd */; };
+		A1691F2E2296C05E00B88365 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F2D2296C05E00B88365 /* libc++.tbd */; };
+		A1691F302296C07200B88365 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F2F2296C07200B88365 /* CoreText.framework */; };
+		A1691F322296C08100B88365 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F312296C08100B88365 /* CoreTelephony.framework */; };
+		A1691F342296C09600B88365 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F332296C09600B88365 /* CoreMotion.framework */; };
+		A1691F362296C0A900B88365 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F352296C0A900B88365 /* SystemConfiguration.framework */; };
+		A1691F382296C0B300B88365 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F372296C0B300B88365 /* CFNetwork.framework */; };
+		A1691F3A2296C0C500B88365 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1691F392296C0C500B88365 /* AdSupport.framework */; };
+		A1691F3F2296CBB100B88365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1638E222296BC3C002FD340 /* AppDelegate.m */; };
+		A16923962296EFF600B88365 /* WC.plist in Resources */ = {isa = PBXBuildFile; fileRef = A16923952296EFF600B88365 /* WC.plist */; };
+		A16924EB22979BDB00B88365 /* WanCmsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16924EA22979BDB00B88365 /* WanCmsSDK.framework */; };
+		A169254A22979E2E00B88365 /* WanCmsSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A169254922979E2E00B88365 /* WanCmsSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,22 @@
 		A1638E412296BC3D002FD340 /* WanCmsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanCmsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1638E452296BC3D002FD340 /* WanCmsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanCmsDemoUITests.m; sourceTree = "<group>"; };
 		A1638E472296BC3D002FD340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1691F222296C02E00B88365 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		A1691F232296C02E00B88365 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		A1691F242296C02F00B88365 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		A1691F252296C02F00B88365 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		A1691F2B2296C04F00B88365 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A1691F2D2296C05E00B88365 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A1691F2F2296C07200B88365 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A1691F312296C08100B88365 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A1691F332296C09600B88365 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A1691F352296C0A900B88365 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1691F372296C0B300B88365 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A1691F392296C0C500B88365 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A1691F402296D09A00B88365 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A16923952296EFF600B88365 /* WC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WC.plist; sourceTree = "<group>"; };
+		A16924EA22979BDB00B88365 /* WanCmsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WanCmsSDK.framework; sourceTree = "<group>"; };
+		A169254922979E2E00B88365 /* WanCmsSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WanCmsSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1691F3A2296C0C500B88365 /* AdSupport.framework in Frameworks */,
+				A1691F382296C0B300B88365 /* CFNetwork.framework in Frameworks */,
+				A16924EB22979BDB00B88365 /* WanCmsSDK.framework in Frameworks */,
+				A1691F362296C0A900B88365 /* SystemConfiguration.framework in Frameworks */,
+				A1691F342296C09600B88365 /* CoreMotion.framework in Frameworks */,
+				A1691F322296C08100B88365 /* CoreTelephony.framework in Frameworks */,
+				A1691F302296C07200B88365 /* CoreText.framework in Frameworks */,
+				A1691F2E2296C05E00B88365 /* libc++.tbd in Frameworks */,
+				A1691F2C2296C04F00B88365 /* libz.tbd in Frameworks */,
+				A1691F292296C03000B88365 /* libssl.a in Frameworks */,
+				A1691F272296C03000B88365 /* AlipaySDK.framework in Frameworks */,
+				A1691F282296C03000B88365 /* libcrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +128,7 @@
 				A1638E392296BC3D002FD340 /* WanCmsDemoTests */,
 				A1638E442296BC3D002FD340 /* WanCmsDemoUITests */,
 				A1638E1F2296BC3C002FD340 /* Products */,
+				A1691F2A2296C04F00B88365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +145,23 @@
 		A1638E202296BC3C002FD340 /* WanCmsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A1691F222296C02E00B88365 /* AlipaySDK.bundle */,
+				A1691F232296C02E00B88365 /* AlipaySDK.framework */,
 				A1638E212296BC3C002FD340 /* AppDelegate.h */,
 				A1638E222296BC3C002FD340 /* AppDelegate.m */,
+				A1638E2A2296BC3D002FD340 /* Assets.xcassets */,
+				A1638E2F2296BC3D002FD340 /* Info.plist */,
+				A1638E2C2296BC3D002FD340 /* LaunchScreen.storyboard */,
+				A1691F242296C02F00B88365 /* libcrypto.a */,
+				A1691F252296C02F00B88365 /* libssl.a */,
+				A1638E302296BC3D002FD340 /* main.m */,
+				A1638E272296BC3C002FD340 /* Main.storyboard */,
+				A1691F402296D09A00B88365 /* PrefixHeader.pch */,
 				A1638E242296BC3C002FD340 /* ViewController.h */,
 				A1638E252296BC3C002FD340 /* ViewController.m */,
-				A1638E272296BC3C002FD340 /* Main.storyboard */,
-				A1638E2A2296BC3D002FD340 /* Assets.xcassets */,
-				A1638E2C2296BC3D002FD340 /* LaunchScreen.storyboard */,
-				A1638E2F2296BC3D002FD340 /* Info.plist */,
-				A1638E302296BC3D002FD340 /* main.m */,
+				A169254922979E2E00B88365 /* WanCmsSDK.bundle */,
+				A16924EA22979BDB00B88365 /* WanCmsSDK.framework */,
+				A16923952296EFF600B88365 /* WC.plist */,
 			);
 			path = WanCmsDemo;
 			sourceTree = "<group>";
@@ -130,6 +182,21 @@
 				A1638E472296BC3D002FD340 /* Info.plist */,
 			);
 			path = WanCmsDemoUITests;
+			sourceTree = "<group>";
+		};
+		A1691F2A2296C04F00B88365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1691F392296C0C500B88365 /* AdSupport.framework */,
+				A1691F372296C0B300B88365 /* CFNetwork.framework */,
+				A1691F352296C0A900B88365 /* SystemConfiguration.framework */,
+				A1691F332296C09600B88365 /* CoreMotion.framework */,
+				A1691F312296C08100B88365 /* CoreTelephony.framework */,
+				A1691F2F2296C07200B88365 /* CoreText.framework */,
+				A1691F2D2296C05E00B88365 /* libc++.tbd */,
+				A1691F2B2296C04F00B88365 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +304,9 @@
 			files = (
 				A1638E2E2296BC3D002FD340 /* LaunchScreen.storyboard in Resources */,
 				A1638E2B2296BC3D002FD340 /* Assets.xcassets in Resources */,
+				A1691F262296C03000B88365 /* AlipaySDK.bundle in Resources */,
+				A169254A22979E2E00B88365 /* WanCmsSDK.bundle in Resources */,
+				A16923962296EFF600B88365 /* WC.plist in Resources */,
 				A1638E292296BC3C002FD340 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +334,7 @@
 			files = (
 				A1638E262296BC3C002FD340 /* ViewController.m in Sources */,
 				A1638E312296BC3D002FD340 /* main.m in Sources */,
-				A1638E232296BC3C002FD340 /* AppDelegate.m in Sources */,
+				A1691F3F2296CBB100B88365 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +507,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4LAW85QU6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WanCmsDemo",
+					"$(PROJECT_DIR)/WanCmsDemo/PaySDK",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WanCmsDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = WanCmsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WanCmsDemo/PaySDK",
+					"$(PROJECT_DIR)/WanCmsDemo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = mingling.WanCmsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,11 +538,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4LAW85QU6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WanCmsDemo",
+					"$(PROJECT_DIR)/WanCmsDemo/PaySDK",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WanCmsDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = WanCmsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WanCmsDemo/PaySDK",
+					"$(PROJECT_DIR)/WanCmsDemo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = mingling.WanCmsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

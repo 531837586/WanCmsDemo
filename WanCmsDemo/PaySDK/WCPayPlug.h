@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "AlipaySDK/AlipaySDK.h"
 #import "WCResponseInfo.h"
+#import <WanCmsSDK/WCmsSDK.h>
 
 typedef NS_ENUM (NSUInteger, TpayWay) {
     AliPay,

@@ -29,7 +29,8 @@
         weakSelf.namelabel.text = userName;
     } failed:^(NSInteger code, NSString *message) {
         NSLog(@"登录失败消息 code = %zd msg =%@", code, message);
-        if (code == -9) {
+        if (code == -9) {//退出注销
+            
             weakSelf.namelabel.text = nil;
         }
     }];

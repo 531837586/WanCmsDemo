@@ -25,12 +25,27 @@
 			<string>Alipay</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>WanCmsAliPayScheme9</string>
+				<string>WanCmsAliPayScheme3</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>Weixin</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>WanCmsWeixinPay3</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>alipay</string>
+		<string>weixin</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>

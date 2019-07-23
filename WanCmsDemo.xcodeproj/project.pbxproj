@@ -29,7 +29,7 @@
 		A1691F3F2296CBB100B88365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1638E222296BC3C002FD340 /* AppDelegate.m */; };
 		A16923962296EFF600B88365 /* WC.plist in Resources */ = {isa = PBXBuildFile; fileRef = A16923952296EFF600B88365 /* WC.plist */; };
 		A16925522297CD9C00B88365 /* WanCmsSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A16925512297CD9C00B88365 /* WanCmsSDK.bundle */; };
-		A18EEC2722BCADEE008D6483 /* WanCmsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18EEC2622BCADEE008D6483 /* WanCmsSDK.framework */; };
+		A18EEC6A22CA0135008D6483 /* WanCmsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18EEC6922CA0135008D6483 /* WanCmsSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +81,7 @@
 		A1691F402296D09A00B88365 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A16923952296EFF600B88365 /* WC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WC.plist; sourceTree = "<group>"; };
 		A16925512297CD9C00B88365 /* WanCmsSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WanCmsSDK.bundle; sourceTree = "<group>"; };
-		A18EEC2622BCADEE008D6483 /* WanCmsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WanCmsSDK.framework; sourceTree = "<group>"; };
+		A18EEC6922CA0135008D6483 /* WanCmsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WanCmsSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 			files = (
 				A1691F3A2296C0C500B88365 /* AdSupport.framework in Frameworks */,
 				A1691F382296C0B300B88365 /* CFNetwork.framework in Frameworks */,
-				A18EEC2722BCADEE008D6483 /* WanCmsSDK.framework in Frameworks */,
+				A18EEC6A22CA0135008D6483 /* WanCmsSDK.framework in Frameworks */,
 				A1691F362296C0A900B88365 /* SystemConfiguration.framework in Frameworks */,
 				A1691F342296C09600B88365 /* CoreMotion.framework in Frameworks */,
 				A1691F322296C08100B88365 /* CoreTelephony.framework in Frameworks */,
@@ -159,7 +159,7 @@
 				A1691F402296D09A00B88365 /* PrefixHeader.pch */,
 				A1638E242296BC3C002FD340 /* ViewController.h */,
 				A1638E252296BC3C002FD340 /* ViewController.m */,
-				A18EEC2622BCADEE008D6483 /* WanCmsSDK.framework */,
+				A18EEC6922CA0135008D6483 /* WanCmsSDK.framework */,
 				A16925512297CD9C00B88365 /* WanCmsSDK.bundle */,
 				A16923952296EFF600B88365 /* WC.plist */,
 			);

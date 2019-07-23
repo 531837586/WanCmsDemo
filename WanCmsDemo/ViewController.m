@@ -12,7 +12,6 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *namelabel;
 @property (weak, nonatomic) IBOutlet UILabel *messageLabel;
-
 @end
 
 @implementation ViewController
